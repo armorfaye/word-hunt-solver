@@ -1,5 +1,5 @@
 import java.util.*;
-import java.io.*;
+import java.io.*; 
 
 public class Main{
 
@@ -14,7 +14,7 @@ public class Main{
 		{ -1, -1 },
 	};
 
-	static int gridsize; 
+  	static int gridsize; 
 	static Character[][] grid;
 	static boolean[][] visited;
 	static List<Integer> movements = new ArrayList<Integer>(); 
